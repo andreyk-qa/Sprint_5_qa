@@ -1,8 +1,5 @@
 from selenium.webdriver.common.by import By
 
-class TestUrls:
-    REGISTER_URL = "https://stellarburgers.nomoreparties.site/register" # адрес страницы регистрации
-    LOGIN_URL = "https://stellarburgers.nomoreparties.site/login" # адрес страницы входа в аккаунт
 
 class TestLocators:
     NAME_INPUT = (By.XPATH, ".//label[text()='Имя']/../input") # Поле ввода имени
