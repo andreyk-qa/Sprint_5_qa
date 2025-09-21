@@ -15,4 +15,7 @@ class TestLocators:
     LOGIN_LINK = (By.XPATH, ".//a[@href='/login']") # Кнопка "Войти" на странице регистрации
     RECOVERY_BUTTON = (By.XPATH, ".//button[text()='Восстановить']") # Кнопка "Восстановить" на странице восстановления пароля
     ORDER_HISTORY_BUTTON = (By.XPATH, ".//a[@href='/account/order-history']") # Кнопка "История заказов" на странице личного кабинета
+    CONSTRUCTOR_BUTTON = (By.XPATH, ".//p[text()='Конструктор']")  # Кнопка "Конструктор"
     ERROR_MESSAGE = (By.XPATH, ".//p[contains(@class, 'input__error')]") # Всплывающее сообщение об ошибке
+    LOGO = (By.XPATH, ".//div[@class= 'AppHeader_header__logo__2D0X2']") # Логотип Stellar Burgers
+    ASSEMBLE_BURGER = (By.XPATH, ".//h1[text()='Соберите бургер']")  # Заголовок "Соберите бургер"
