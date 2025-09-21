@@ -14,4 +14,5 @@ class TestLocators:
     FORGOT_PASSWORD_LINK_IN_LOGIN_PAGE = (By.XPATH, ".//a[@href='/forgot-password']") # Кнопка "Восстановить пароль" на странице авторизации
     LOGIN_LINK = (By.XPATH, ".//a[@href='/login']") # Кнопка "Войти" на странице регистрации
     RECOVERY_BUTTON = (By.XPATH, ".//button[text()='Восстановить']") # Кнопка "Восстановить" на странице восстановления пароля
+    ORDER_HISTORY_BUTTON = (By.XPATH, ".//a[@href='/account/order-history']") # Кнопка "История заказов" на странице личного кабинета
     ERROR_MESSAGE = (By.XPATH, ".//p[contains(@class, 'input__error')]") # Всплывающее сообщение об ошибке
