@@ -20,3 +20,10 @@ class TestLocators:
     LOGO = (By.XPATH, ".//div[@class= 'AppHeader_header__logo__2D0X2']") # Логотип Stellar Burgers
     LOGOUT_BUTTON = (By.XPATH, ".//button[text()='Выход']")  # Кнопка "Выход" на странице личного кабинета
     ASSEMBLE_BURGER = (By.XPATH, ".//h1[text()='Соберите бургер']")  # Заголовок "Соберите бургер"
+    BUNS_BUTTON = (By.XPATH, ".//span[text()='Булки']")  # Кнопка "Булки" на главной странице
+    SAUCES_BUTTON = (By.XPATH, ".//span[text()='Соусы']")  # Кнопка "Соусы" на главной странице
+    FILLINGS_BUTTON = (By.XPATH, ".//span[text()='Начинки']")  # Кнопка "Начинки" на главной странице
+    BUNS_LIST = (By.XPATH, ".//h2[text()='Булки']")  # Список "Булки" на главной странице
+    SAUCES_LIST = (By.XPATH, ".//h2[text()='Соусы']")  # Список "Соусы" на главной странице
+    FILLINGS_LIST = (By.XPATH, ".//h2[text()='Начинки']")  # Список "Начинки" на главной странице
+
