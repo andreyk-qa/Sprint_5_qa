@@ -5,9 +5,9 @@ from locators import TestLocators
 from data import TestUrls
 
 
-class TestEnterToConstructor:
+class TestLogoutAccount:
 
-    def test_enter_to_constructor_from_personal_account(self, driver):
+    def test_logout_from_personal_account(self, driver):
         driver.get(TestUrls.MAIN_URL)
 
         driver.find_element(*TestLocators.LOGIN_ACCOUNT_BUTTON).click()
